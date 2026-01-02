@@ -243,23 +243,20 @@
             </div>
         </section>
 
-        <!-- Pricing / Philosophy -->
+        <!-- Pricing -->
         <section style="background: var(--bg-secondary);">
             <div class="container" style="max-width: 800px;">
-                <h2 style="text-align: center; margin-bottom: 2rem;">提供サービスと価格</h2>
+                <h2 style="text-align: center; margin-bottom: 2rem;">提供サービスと<span class="text-gradient">価格</span></h2>
                 <div class="card price-card">
                     <h3>パーソナル伴走プラン</h3>
-                    <div class="price">
-                        Coming Soon <span style="display: block; font-size: 0.9rem; margin-top: 5px;">(3ヶ月 /
-                            全3回課題・面談)</span>
+                    <div class="price">5500円<span
+                            style="font-size: 1rem; font-weight: normal; color: var(--text-secondary);">（税込・1回分）</span>
+                        <span style="display: block; font-size: 0.9rem; margin-top: 5px;">(3ヶ月 /
+                            全3回の課題・面談)</span>
                     </div>
-                    <p style="color: var(--text-secondary); margin-bottom: 2rem;">
-                        本サービスは「知識」ではなく、「自己変容」への投資です。<br>
-                        安価な教材の大量消費ではなく、<br>一生使える「思考の型」を手に入れたい方のためのプログラムです。
-                    </p>
                     <ul class="check-list" style="text-align: left; display: inline-block;">
-                        <li>月に1つ 個別課題設定</li>
-                        <li>月1回 60分の対話セッション（課題へのレビューと次回課題のための対話）</li>
+                        <li>月に1つ 個別の課題設定</li>
+                        <li>月1回 60分の対話セッション（「課題へのレビュー」と「次回課題のための対話と出題」）</li>
                         <li>期間中 チャットでの質問対応</li>
                     </ul>
                 </div>
@@ -269,9 +266,9 @@
         <!-- Contact -->
         <section id="contact">
             <div class="container" style="text-align: center; max-width: 600px;">
-                <h2 style="margin-bottom: 1.5rem;">まずはご相談ください</h2>
+                <h2 style="margin-bottom: 1.5rem;">無料相談のお申し込み</h2>
                 <p style="color: var(--text-secondary); margin-bottom: 2.5rem;">
-                    各期、定員は若干名の少人数制です。<br>
+                    現在はテスト運用として、数名のみ受け付けております。<br>
                     本気でデータ活用力を身につけたい方のお申し込みをお待ちしています。
                 </p>
                 <form name="contact" method="POST" data-netlify="true" action="/thanks.html" class="card"
@@ -286,9 +283,10 @@
                         <input type="email" id="email" name="email" required
                             style="width: 100%; padding: 0.8rem; border-radius: 8px; border: 1px solid var(--glass-border); background: var(--bg-secondary); color: var(--text-primary);">
                     </div>
+
                     <div style="margin-bottom: 1.5rem;">
                         <label style="display: block; margin-bottom: 0.5rem;"
-                            for="message">そのほか（相談内容や特記事項など。何もなければ「なし」とご記入ください。）</label>
+                            for="message">相談内容や特記事項など（何もなければ「なし」とご記入ください）</label>
                         <textarea id="message" name="message" rows="4" required
                             style="width: 100%; padding: 0.8rem; border-radius: 8px; border: 1px solid var(--glass-border); background: var(--bg-secondary); color: var(--text-primary);"></textarea>
                     </div>
